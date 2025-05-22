@@ -1,14 +1,13 @@
-// load environment variables from a .env file
 require("dotenv").config();
 
 
 // ========== LIBRARIES ========== //
 
 // Import the required libraries
-const express = require("express"); // Web server framework
-const axios = require("axios"); // For making HTTP requests
-const cors = require("cors"); // To allow requests from other origins (front end)
-const multer = require("multer"); // to handle file uploads (images)
+const express = require("express"); 
+const axios = require("axios"); 
+const cors = require("cors"); 
+const multer = require("multer"); 
 
 
 const app = express();
